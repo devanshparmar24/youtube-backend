@@ -2,8 +2,9 @@
   "name": "youtube-backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "npm node index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "youtube",
@@ -12,5 +13,8 @@
   ],
   "author": "Devansh Parmar",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
